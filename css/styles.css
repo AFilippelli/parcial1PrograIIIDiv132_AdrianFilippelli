@@ -1,0 +1,109 @@
+header{
+    top: 0;
+    margin-top:-10px;
+    display: flex;
+    width: 90%;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 0 0 8px 8px;
+    padding: 0px 90px;
+    background-color: green;
+    justify-content: space-between;
+
+}
+
+
+.barra-busqueda { 
+  width: 40%; 
+}
+
+
+main{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-titulo{
+    margin-bottom: 15px;
+    text-align: center;
+    width: 50%;
+    font-family: sans-serif;
+}
+
+.card-producto img{
+    width: 50px;
+    height: 50px;
+}
+
+.card-producto{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton-agregarcarrito{
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    color:white;
+    background-color: green;  
+    border-radius: 5px; 
+    display: inline-flex;
+}
+
+#contenedorFrutas{
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer-titulo{
+    margin-bottom: 15px;
+    text-align: center;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+#contenedorCarrito{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+
+.boton-eliminar{
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    color:white;
+    background-color: red;  
+    border-radius: 5px; 
+    display: inline-flex;
+}
+
+.boton-vaciarcarrito{
+    align-items: center;
+    height: 30px;
+    color:white;
+    background-color: red;  
+    border-radius: 5px; 
+
+    position: absolute;
+    left: 0;
+    top: 900px;
+}
+
+.total-carrito{
+    position: absolute;
+    right: 40px;
+    top: 850px;
+}
